@@ -5,6 +5,7 @@
 !/RTK.md
 !/settings.json
 !/skills/
+!/README.md
 
 # Inside skills/: ignore caches, keep source.
 skills/**/__pycache__/
