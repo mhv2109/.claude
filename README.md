@@ -21,11 +21,11 @@ Personal Claude Code global configuration, tracked with git for multi-machine sy
 mv ~/.claude ~/.claude.bak
 
 # Clone
-git clone git@github.com:mhv2109/claude-config.git ~/.claude
+git clone git@github.com:mhv2109/.claude.git ~/.claude
 
 # If rtk is not installed on this machine, neutralize the hook:
 # Create ~/.claude/settings.local.json with an empty hooks object or
-# install rtk: https://github.com/mhv2109/rtk
+# install rtk: https://github.com/rtk-ai/rtk
 ```
 
 ## Docs
