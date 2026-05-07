@@ -1,0 +1,24 @@
+# Allowlist: ignore everything, then un-ignore tracked items.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/RTK.md
+!/settings.json
+!/skills/
+
+# Inside skills/: ignore caches, keep source.
+skills/**/__pycache__/
+skills/**/*.pyc
+skills/**/.DS_Store
+
+# Hard ignores (defense in depth).
+**/*.local.*
+**/settings.local.json
+**/.env
+**/.env.*
+**/*.key
+**/*.pem
+**/credentials*
+**/*secret*
+**/*.bak
+.DS_Store
