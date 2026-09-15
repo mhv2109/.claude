@@ -1,17 +1,7 @@
 {
   "model": "opus",
   "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "rtk hook claude"
-          }
-        ]
-      }
-    ]
+    "PreToolUse": []
   },
   "enabledPlugins": {
     "superpowers@claude-plugins-official": true,
