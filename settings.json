@@ -23,16 +23,9 @@
     "gopls-lsp@claude-plugins-official": true,
     "jdtls-lsp@claude-plugins-official": true,
     "clangd-lsp@claude-plugins-official": true,
-    "caveman@caveman": true,
     "emacs-skills@xenodium-emacs-skills": true
   },
   "extraKnownMarketplaces": {
-    "caveman": {
-      "source": {
-        "source": "github",
-        "repo": "JuliusBrussee/caveman"
-      }
-    },
     "xenodium-emacs-skills": {
       "source": {
         "source": "github",
